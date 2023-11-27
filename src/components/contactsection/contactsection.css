@@ -1,0 +1,81 @@
+/* Default Styles */
+.contact-section {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    color: #F21137;
+  }
+  .contact-section p{
+    color: #ccc;
+    font-size: 25px;
+  }
+  .contact {
+    border: 1px solid white;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 40px;
+    width: 80%;
+    max-width: 600px; /* Limit maximum width */
+    height: auto; /* Adjust height to auto for content to expand */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px; /* Adjust padding */
+  
+  }
+  
+  .contact input,
+  .contact textarea {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    margin: 10px 0; /* Adjust margin */
+    width: 100%; /* Use full width of container */
+    padding: 10px;
+  }
+  
+  .contact-button {
+    margin-top: 20px;
+    background-color: #F21137;
+    color: white;
+    border: none;
+    border-radius: 20px 0 20px 0;
+    cursor: pointer;
+    transition: 0.5s ease;
+    padding: 15px;
+    width: 100%; /* Use full width of container */
+    max-width: 130px; /* Limit maximum width */
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .contact-button:hover {
+    background-color: #d17f00;
+    border-radius: 0 20px 0 20px;
+  }
+  
+  /* Media Query for Smaller Screens */
+  @media (max-width: 768px) {
+    .contact-section p{
+      font-size: 17px;
+      padding: 20px;
+    }
+    .contact-section h2 {
+      font-size: 24px; /* Decrease font size */
+    }
+  
+    .contact {
+      padding:20px; /* Adjust padding */
+    }
+    .contact input,
+  .contact textarea{
+    width: 80%;
+  }
+    .contact-button {
+      padding: 12px; /* Adjust padding */
+      font-size: 16px; /* Decrease font size */
+    }
+  }

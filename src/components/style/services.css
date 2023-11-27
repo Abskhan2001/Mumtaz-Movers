@@ -1,0 +1,50 @@
+#services {
+    padding: 50px 0;
+  }
+  
+  .card {
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* About Us section styles */
+  #about {
+    padding: 50px 0;
+  }
+  
+  #about h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #about p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  #about ul {
+    font-size: 18px;
+    margin-left: 20px;
+    list-style: disc;
+  }

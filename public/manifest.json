@@ -1,0 +1,48 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "description": "A brief description of your web app or its purpose.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "scope": "/",
+  "orientation": "any",
+  "lang": "en",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "dir": "auto",
+  "categories": [],
+  "iarc_rating_id": "iarc-rating-id",
+  "url": "https://www.Mumtazmovers.com",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "shortcuts": [],
+  "share_target": {
+    "action": "/share/",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}

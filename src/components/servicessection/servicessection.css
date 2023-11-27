@@ -1,0 +1,213 @@
+
+ @-webkit-keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+
+.services-section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.services-section h2 {
+  color: #FFFFFE;
+  font-size: 2rem;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  }
+
+  
+.service {
+  flex-basis: 30%;
+  padding:30px;
+  margin: 15px;
+  background-color: #F21137;
+  border-radius: 8px;
+  transition: 0.5s;
+  
+}
+.icon{
+  color: #FFFFFE;
+  height: 200px;
+}
+.service h3 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  color: #FFFFFE;
+}
+
+.cardP {
+  color: #FFFFFE;
+  margin-top: 10px;
+  padding: 20px;
+  width: 85% !important;
+  text-align: center;
+}
+
+.buttonLink {
+  padding: 8px 16px;
+  background-color: #F21137;
+  border-radius: 20px; /* Adjust the button border-radius */
+  color: white; /* Add text color */
+  transition: 0.5s;
+  bottom: 10px; /* Adjust button position */
+  left: 50%;
+  transform: translateX(-50%); /* Center the button */
+}
+
+.buttonLink {
+  text-decoration: none;
+  color: #F21137;
+  padding: 12px 24px;
+  font-size: 20px;
+  font-weight: 1000;
+  background-color: white;
+  border: none;
+  border-radius: 20px 0 20px 0;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.services-section h1 {
+  margin-bottom: 2px;
+  font-size: 43px;
+  font-weight: bolder;
+  color: #F21137;
+}
+
+.cardTopP {
+  font-size: 22px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+  color: #F21137;
+  text-shadow: 20px 20px 20px rgba(255, 255, 255, 0.8);
+}
+
+.cta-button {
+  padding: 12px 24px;
+  font-size: 20px;
+  font-weight: 1000;
+  background-color: #F21137;
+  color: white;
+  border: none;
+  border-radius: 20px 0 20px 0;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.service:hover{
+  -webkit-animation: jello-horizontal 0.9s both;
+  animation: jello-horizontal 0.9s both;
+}
+.buttonLink:hover {
+  background-color: white;
+  border-radius: 0 20px 0 20px;
+  color:#F21137 ;
+}
+
+  /* Media Query for Smaller Screens */
+  @media (max-width: 768px) {
+    .service {
+      flex: 45%;
+      padding: 15px;
+      width: 300px;
+    }
+    .services-section {  
+      overflow-x: auto; 
+      white-space: nowrap; }
+  
+    .service h3 {
+      font-size: 1.2rem;
+    }
+    
+    .service p {
+      font-size: 14px;
+      width: 100%; /* Set width to 100% to fully display text */
+      white-space: normal; /* Allow text to wrap */
+    }
+    
+    .buttonLink {
+      font-size: 12px;
+    }
+    .services-section h1 {
+      font-size: 10.5px;
+      font-weight: 900;
+    }
+  
+    .services-section p {
+      font-size: 11px;
+      margin-bottom: 20px;
+      font-weight: 900;
+    }
+    .cardP {
+      color: #FFFFFE;
+      font-family: 'Times New Roman', Times, serif;
+    
+     
+    }
+    .cta-button {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  }

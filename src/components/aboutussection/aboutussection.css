@@ -1,0 +1,40 @@
+/* Styling for AboutUsSection */
+.about-us-section {
+    padding: 80px 0;
+    text-align: center;
+    color: #FFFFFE;
+  }
+  
+  .about-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-us-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #F21137;
+  }
+  
+  .about-us-content p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  @media (max-width: 768px) {
+    .about-us-content h2 {
+      font-size: 20px;
+    }
+    
+    .about-us-content p {
+      line-height: normal;
+      padding: 20px;
+      font-size: 16px;
+    }
+    .about-us-content ul{
+      text-align: center;
+      padding: 20px;
+    }
+  }
+
+
+

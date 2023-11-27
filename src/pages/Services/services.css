@@ -1,0 +1,44 @@
+.Service{
+    background-size: cover;
+    width: 100%;
+    display: flex;
+}
+.Serviceimg{
+    margin-top: 90px;
+    height: 85rem;
+    width: 50%;
+    padding: 20px;
+    border-radius: 100px;
+}
+.mpic{
+    display: none;
+}
+.oneService {
+    padding: 100px;
+   justify-content: center;
+   color: #ef183c;
+}
+.oneService h1 h2{
+ font-family: monospace;
+}
+.oneService p{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: white;
+}
+@media (max-width: 768px) {
+    .Service{
+        display: block;
+    }
+    .mpic{
+        margin-top: 60px;
+        display: block;
+        width: 340px;
+        padding: 20px;
+    }
+    .Serviceimg{
+       display: none;
+    }
+    .oneService{
+        padding: 50px;
+    }
+}
